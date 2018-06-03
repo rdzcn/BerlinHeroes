@@ -1,0 +1,7 @@
+<div class="posts__new__wrapper">
+  <%=  simple_form_for @post do |f|%>
+    <%= f.input :title, label: false, placeholder: "Title" %>
+    <%= f.input :content, label: false, placeholder: "Explaing" %>
+    <%= f.button :submit, "Submit", class: "btn-success" %>
+  <% end %>
+</div>
