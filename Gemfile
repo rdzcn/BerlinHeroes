@@ -18,6 +18,13 @@ gem 'sass-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+gem 'jquery-fileupload-rails'
+gem 'cloudinary'
+gem 'attachinary', github: 'assembler/attachinary'
+gem 'geocoder'
+gem 'faker'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
