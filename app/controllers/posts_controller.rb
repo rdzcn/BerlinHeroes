@@ -1,10 +1,12 @@
 class PostsController < ApplicationController
   skip_before_action :authenticate_user!, only: [:index]
   before_action :set_post, only: [:show, :edit, :update, :destroy]
+  skip_after_action :verify_policy_scoped, only: [:index]
 
   def index
-    @posts = policy_scope(Post)
-    @user = current_user
+    @posts = Post.all
+    #@posts = policy_scope(Post)
+    #@user = current_user
   end
 
   def show

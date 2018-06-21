@@ -1,6 +1,7 @@
 <div class="index__posts__wrapper">
-<% policy_scope(@user.posts).each do |post| %>
+<% @posts.each do |post| %>
   <h2><%= post.title %></h2>
   <p><%= post.content %></p>
+  <p><%= post.user.email %></p>
 <% end %>
 </div>

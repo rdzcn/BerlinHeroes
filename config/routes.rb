@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :users, controllers: { sessions: 'users/sessions' }
-  get 'users/posts', to: 'posts#index', as: 'user_posts'
+  devise_for :users, module: 'users'
 
   root to: 'pages#home'
 

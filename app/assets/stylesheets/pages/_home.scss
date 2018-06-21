@@ -1,1 +1,7 @@
-// Specific CSS for your home-page
+.homepage__wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: asset-url('two_pens.jpg');
+  background-size: cover;
+  background-position: bottom center;
+}
