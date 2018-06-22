@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+html, body {
+  color: rgb(220,220,220);
+  font-size: 10px;
+}
+
 // Graphical variables
 @import "config/fonts";
 @import "config/colors";
