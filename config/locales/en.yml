@@ -30,5 +30,5 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello_flash: Hello flash!
-  johnny: This is fantastic!
+  brand_name: 'Berlin Heroes'
+  tag_line: 'Meet your hero today!'

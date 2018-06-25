@@ -5,10 +5,11 @@
     <% end %>
   </div>
   <div class="navbar-right">
-    <% if user_signed_in? %>
+
       <%= link_to "Posts", posts_path, class: "navbar-item navbar-link" %>
-      <%= link_to "My Profile", "#", class: "navbar-item navbar-link" %>
       <%= link_to "About BH", "#", class: "navbar-item navbar-link" %>
+    <% if user_signed_in? %>
+      <%= link_to "My Profile", "#", class: "navbar-item navbar-link" %>
       <%= link_to "Sign Out", destroy_user_session_path, method: :delete, class: "navbar-item navbar-link"  %>
       <%= image_tag "http://kitt.lewagon.com/placeholder/users/rdzcn", class: "avatar navbar-item" %>
     <% else %>

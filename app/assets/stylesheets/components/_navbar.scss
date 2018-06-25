@@ -7,7 +7,7 @@
   padding: 0px 30px;
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -25,9 +25,12 @@
 
 /* Right section */
 .navbar-right {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  text-align: right;
+  width: 100%;
+}
+
+.navbar-left {
+  width: 100%;
 }
 
 /* Basic navbar item */
