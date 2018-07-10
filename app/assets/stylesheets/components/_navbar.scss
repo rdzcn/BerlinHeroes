@@ -23,12 +23,14 @@
   height: 3.5rem;
   width: 3.5rem;
   border-radius: 50%;
+  z-index: -1;
 }
 
 /* Right section */
 .navbar-right {
   text-align: right;
   width: 100%;
+  margin-right: 5rem;
 }
 
 .navbar-left {

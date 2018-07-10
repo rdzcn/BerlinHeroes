@@ -6,6 +6,9 @@
   margin: 0;
   text-align: center;
   color: white;
+  z-index: 5;
+  position: absolute;
+  width: 100vw;
 }
 .alert-info {
   background: $green;
