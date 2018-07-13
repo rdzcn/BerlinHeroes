@@ -28,29 +28,36 @@
 
 /* Right section */
 .navbar-right {
-  text-align: right;
-  width: 100%;
-  margin-right: 5rem;
+  text-align: center;
+  width: 50%;
+  margin-right: 0;
+  display: flex;
+  justify-content: center;
+  .navbar-item {
+    flex: 1;
+  }
 }
 
 .navbar-left {
-  width: 100%;
+  width: 50%;
 }
 
 /* Basic navbar item */
 .navbar-item {
   cursor: pointer;
-  padding: 0 2rem;
+  padding: 1rem 2rem;
 }
 
 /* Navbar link */
 .navbar-link {
   //color: #616668;
   font-size: 1.4rem;
-  color: rgb(220,220,220);
+  color: $main-color;
+  letter-spacing: 2px;
 }
 .navbar-link:hover {
-  color: #da552f;
+  color: $main-color-hover;
   text-decoration: none;
+  background: $main-color-light;
 }
 

@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-html, body {
-  color: rgb(220,220,220);
-  font-size: 10px;
-}
 
 // Graphical variables
 @import "config/fonts";
@@ -23,3 +19,8 @@ html, body {
 @import "layouts/index";
 @import "components/index";
 @import "pages/index";
+
+html, body {
+  color: $main-color;
+  font-size: 10px;
+}
