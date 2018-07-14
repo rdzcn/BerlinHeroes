@@ -3,7 +3,9 @@
   min-height: 100vh;
   color: rgba(225, 0, 200, 0.7);
   .banner {
-    background-image: linear-gradient(rgba(0,0,0,0.8) 70px, rgba(0,0,0,0.3) 70px, rgba(0,0,0,0.3) 40%, rgba(0,0,0,0.8) 40%, rgba(0,0,0,0.8) 60%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.3) 100%), asset-url('tv_tower.jpg');
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0.6) 70px, rgba(0,0,0,0.3) 70px, rgba(0,0,0,0.3) 40%, rgba(0,0,0,0.6) 40%, rgba(0,0,0,0.6) 60%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.3) 100%), asset-url('tv_tower.jpg');
+    background-image: -o-linear-gradient(rgba(0,0,0,0.6) 70px, rgba(0,0,0,0.3) 70px, rgba(0,0,0,0.3) 40%, rgba(0,0,0,0.6) 40%, rgba(0,0,0,0.6) 60%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.3) 100%), asset-url('tv_tower.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.6) 70px, rgba(0,0,0,0.3) 70px, rgba(0,0,0,0.3) 40%, rgba(0,0,0,0.6) 40%, rgba(0,0,0,0.6) 60%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.3) 100%), asset-url('tv_tower.jpg');
     background-size: cover;
     background-position: bottom center;
     height: 100vh;
@@ -20,7 +22,6 @@
     }
   }
   .hero {
-
     display: flex;
     justify-content: center;
     align-items: top;

@@ -18,46 +18,43 @@
   height: 5rem;
 }
 
-/* User Avatar */
-.avatar {
-  height: 3.5rem;
-  width: 3.5rem;
-  border-radius: 50%;
-  z-index: -1;
-}
 
 /* Right section */
 .navbar-right {
   text-align: center;
-  width: 50%;
-  margin-right: 0;
+  width: 40%;
   display: flex;
   justify-content: center;
+  align-items: center;
   .navbar-item {
     flex: 1;
+    cursor: pointer;
+    padding: 1rem;
   }
+}
+
+/* User Avatar */
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  z-index: 1;
 }
 
 .navbar-left {
   width: 50%;
 }
 
-/* Basic navbar item */
-.navbar-item {
-  cursor: pointer;
-  padding: 1rem 2rem;
-}
-
 /* Navbar link */
 .navbar-link {
-  //color: #616668;
   font-size: 1.4rem;
   color: $main-color;
   letter-spacing: 2px;
+  &:hover {
+    color: $main-color-hover;
+    text-decoration: none;
+    background: $main-color-light;
+  }
 }
-.navbar-link:hover {
-  color: $main-color-hover;
-  text-decoration: none;
-  background: $main-color-light;
-}
+
 
