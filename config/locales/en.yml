@@ -31,4 +31,5 @@
 
 en:
   brand_name: 'Berlin Heroes'
-  tag_line: 'Meet your hero today!'
+  tag_line: '- Meet your hero today! -'
+  login: 'Login'

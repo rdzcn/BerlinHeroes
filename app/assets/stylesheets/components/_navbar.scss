@@ -26,10 +26,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 50px;
   .navbar-item {
     flex: 1;
     cursor: pointer;
-    padding: 1rem;
+    padding: 1.8rem 1rem;
   }
 }
 
@@ -43,6 +44,7 @@
 
 .navbar-left {
   width: 50%;
+  height: 50px;
 }
 
 /* Navbar link */
@@ -50,10 +52,11 @@
   font-size: 1.4rem;
   color: $main-color;
   letter-spacing: 2px;
+  text-decoration: none;
+  transition: background 1s;
   &:hover {
-    color: $main-color-hover;
-    text-decoration: none;
-    background: $main-color-light;
+    background: $second-color-light;
+    border-radius: 5px;
   }
 }
 

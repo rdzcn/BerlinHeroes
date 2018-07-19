@@ -2,15 +2,14 @@
 
 // For example:
 $red: #EE5F5B;
+$blue: blue;
 $yellow: #FDB631;
 $orange: #E67E22;
 $green: #32B796;
 $gray: #000000;
 $light-gray: #F4F4F4;
 
-$main-color: rgba(225, 0, 200, 0.7);
-$main-color-hover: rgba(255, 0, 200, 0.7);
-$main-color-light: rgba(225, 0, 200, 0.1);
-
-$gold: rgba(210,140,43,1); //
-$blue: #0d028e;
+$main-color: rgba(210,140,43,1); //gold
+$second-color: rgba(0,71,84,1);  //blue
+$second-color-light: rgba(0,71,84,0.7);
+$second-color-lighter: rgba(0,71,84,0.1);
