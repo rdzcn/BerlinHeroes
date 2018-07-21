@@ -24,4 +24,9 @@
 html, body {
   color: $main-color;
   font-size: 10px;
+  font-family: $body-font;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headers-font;
 }
